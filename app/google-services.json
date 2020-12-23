@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518958644747",
+    "firebase_url": "https://livetracker-b6a6d.firebaseio.com",
+    "project_id": "livetracker-b6a6d",
+    "storage_bucket": "livetracker-b6a6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518958644747:android:eae2a579fe5d75b6",
+        "android_client_info": {
+          "package_name": "com.database.tracker.vehicleverify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518958644747-se6hc6lhe0bbfpk60dcdrleu0rkgb5jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.database.tracker.vehicleverify",
+            "certificate_hash": "8854d8f20b7d805432a24ae547b7a4e2dbc54cb3"
+          }
+        },
+        {
+          "client_id": "518958644747-ean0jsg2qinenm2v69rdhj8ck2th3gil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX4bxTRYnigfhwdLCYN_L6sO6j5Srve6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518958644747-ean0jsg2qinenm2v69rdhj8ck2th3gil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

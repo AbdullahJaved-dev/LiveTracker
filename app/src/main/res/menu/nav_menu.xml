@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/nav_terms"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:title="Terms and Conditions" />
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/nav_rateus"
+        android:icon="@drawable/ic_rate_review_black_24dp"
+        android:title="Rate Us" />
+
+</menu>

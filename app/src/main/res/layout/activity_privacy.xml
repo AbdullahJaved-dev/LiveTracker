@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.database.tracker.vehicleverify.privacyActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash_background"
+        android:scaleType="centerCrop"/>
+
+
+    <ImageView
+        android:id="@+id/headerMainP"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:src="@drawable/iconfront" />
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_below="@+id/headerMainP"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_centerHorizontal="true"
+           android:gravity="center_horizontal"
+           android:layout_marginTop="20dp"
+           android:layout_height="match_parent">
+
+
+
+           <TextView
+               android:id="@+id/impTxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white_color"
+               android:text="@string/announcement"
+               android:textSize="20dp"
+               android:fontFamily="@font/arial_bold"/>
+
+           <TextView
+               android:id="@+id/detailTxt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="25dp"
+               android:layout_marginRight="25dp"
+               android:textColor="@color/white_color"
+               android:paddingLeft="20dp"
+               android:fontFamily="@font/arial_reg"
+               android:layout_marginTop="10dp"
+               android:paddingRight="20dp"
+               android:text="@string/detail_anounce"
+               android:textSize="16sp" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="20dp"
+               android:weightSum="2">
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:id="@+id/termsID"
+                   android:gravity="center_horizontal"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_weight="1">
+
+                   <ImageView
+
+                       android:layout_width="32dp"
+                       android:layout_height="32dp"
+                       android:tint="@color/white_color"
+                       android:layout_marginLeft="40dp"
+                       android:layout_marginRight="40dp"
+                       android:src="@drawable/ic_terms_and_conditions" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:fontFamily="@font/arial_reg"
+                       android:textColor="@color/white_color"
+                       android:text="@string/terms_condi"/>
+
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:id="@+id/policyID"
+                   android:gravity="center_horizontal"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+                   android:layout_weight="1">
+
+                   <ImageView
+
+                       android:layout_width="32dp"
+                       android:layout_height="32dp"
+                       android:tint="@color/white_color"
+                       android:layout_marginLeft="40dp"
+                       android:layout_marginRight="40dp"
+                       android:src="@drawable/ic_padlock" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:fontFamily="@font/arial_reg"
+                       android:textColor="@color/white_color"
+                       android:text="@string/privacy_policy"/>
+               </LinearLayout>
+
+
+           </LinearLayout>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/btn_splash"
+               android:layout_marginLeft="55dp"
+               android:layout_marginRight="60dp"
+               android:layout_marginTop="10dp"
+               android:id="@+id/acceptB"
+               android:fontFamily="@font/arial_bold"
+               android:text="@string/accept_policies"/>
+
+
+       </LinearLayout>
+
+
+   </RelativeLayout>
+</RelativeLayout>

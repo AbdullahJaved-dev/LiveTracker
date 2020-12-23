@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Live Tracker</string>
+    <string name="admob_app_id">ca-app-pub-3630685495225759~8888515320</string>
+
+    <string name="testing_id">D016HP5P9K8/p1608027596001500</string>
+    <string name="admob_banner_ad_id">ca-app-pub-3630685495225759/8143722941</string>
+    <string name="admob_interestial_ad_id">ca-app-pub-3630685495225759/5252275226</string>
+    <string name="notif_channel">livetracker_notifs</string>
+    <string name="sim_database">SIM Database</string>
+    <string name="vehicle_verification">Vehicle Verification</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="option">Options</string>
+    <string name="notification">Notifications</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_condi">Terms and Conditions</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="announcement">Important Annoucment</string>
+    <string name="detail_anounce">To use LiveTracker app you need to accept the Terms of Use. Touch ACCEPT to agree the terms of Use and Privacy Policy.</string>
+    <string name="accept_policies">Accept our Policies</string>
+    <string name="availibility">Nework Not Availabe</string>
+    <string name="loading">Loading..</string>
+    <string name="punjab">Punjab</string>
+    <string name="isb">Islamabad</string>
+    <string name="sindh">Sindh</string>
+    <string name="kpk">KPK</string>
+</resources>

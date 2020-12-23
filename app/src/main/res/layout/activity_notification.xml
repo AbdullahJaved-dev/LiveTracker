@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+
+    <RelativeLayout
+        android:id="@+id/titleLayIdNotifs"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/black_color">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back"
+            android:id="@+id/backNotifId"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/notification"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:fontFamily="@font/arial_bold"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_below="@+id/titleLayIdNotifs"
+        android:id="@+id/notifRecyclerId"
+        />
+</RelativeLayout>

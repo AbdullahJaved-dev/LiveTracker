@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp" android:layout_height="200dp">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/iconfront"
+    android:paddingBottom="20dp"
+    android:background="@drawable/custom_background"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="30dp"
+    />
+</RelativeLayout>
